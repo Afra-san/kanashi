@@ -1,0 +1,135 @@
+.works {
+    margin-top: 12rem;
+    width: 100%;
+    height: 110vh;
+    background: #030303;
+    /* background: #111; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.card {
+    width: 335px;
+    height: 415px;
+    background: #131313;
+    margin: 1rem;
+    background: linear-gradient(
+        to right,
+        #131313,
+        #171717 50%,
+        #131313 80%
+      ),
+      #131313;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@keyframes shine {
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+.cardbox {
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 6rem; */
+    /* padding-bottom: 6rem; */
+    /* justify-content: flex-start; */
+}
+.down {
+    transform: translateY(30%);
+}
+.righticon {
+    margin-left: 1rem;
+}
+.workstext {
+    position: absolute;
+    font-family: 'Druk Wide';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1rem;
+    margin-top: 8rem;
+}
+.image1 {
+    width: 335px;
+    height: 415px;
+    background: #131313;
+    margin-bottom: 2rem;
+    background-image: url(../public/hanyaa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10rem;
+    padding: 0;
+}
+.image2 {
+    width: 335px;
+    height: 415px;
+    background: #131313;
+    margin-top: 2rem;
+    background-image: url(../public/910dc024789bd4d2fcfdad.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .workstext {
+        position: absolute;
+        font-family: 'Druk Wide';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 1rem;
+    }
+    .card {
+        margin: 1rem;
+    }
+    .cardbox {
+        margin-top: 8rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 6rem;
+        /* padding-bottom: 6rem; */
+        /* justify-content: flex-start; */
+    }
+    .image1 {
+        width: 335px;
+        height: 415px;
+        background: #131313;
+        margin: 1rem;
+        background-image: url(../public/hanyaa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image2 {
+        width: 335px;
+        height: 415px;
+        background: #131313;
+        margin: 1rem;
+        background-image: url(../public/910dc024789bd4d2fcfdad.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+}

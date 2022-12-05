@@ -1,0 +1,21 @@
+.content {
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img1 {
+
+    width: 428px;
+    height: 581px;
+    background: #1F1F1F;
+    margin: 1rem;
+}
+.img2 {
+
+    width: 428px;
+    height: 428px;
+    background: #1F1F1F;
+    margin: 1rem;
+}

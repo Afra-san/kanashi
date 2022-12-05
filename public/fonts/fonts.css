@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('AkiraExpanded-SuperBold.eot');
+    src: url('AkiraExpanded-SuperBold.eot?#iefix') format('embedded-opentype'),
+        url('AkiraExpanded-SuperBold.woff2') format('woff2'),
+        url('AkiraExpanded-SuperBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('DrukWide-Heavy.eot');
+    src: url('DrukWide-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-Heavy.woff2') format('woff2'),
+        url('DrukWide-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('DrukWide-Medium.eot');
+    src: url('DrukWide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-Medium.woff2') format('woff2'),
+        url('DrukWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('DrukWide-MediumItalic.eot');
+    src: url('DrukWide-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-MediumItalic.woff2') format('woff2'),
+        url('DrukWide-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Super';
+    src: url('DrukWide-SuperItalic.eot');
+    src: url('DrukWide-SuperItalic.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-SuperItalic.woff2') format('woff2'),
+        url('DrukWide-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Super';
+    src: url('DrukWide-Super.eot');
+    src: url('DrukWide-Super.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-Super.woff2') format('woff2'),
+        url('DrukWide-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('DrukWide-BoldItalic.eot');
+    src: url('DrukWide-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-BoldItalic.woff2') format('woff2'),
+        url('DrukWide-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('./DrukWide-Bold.eot');
+    src: url('./DrukWide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./DrukWide-Bold.woff2') format('woff2'),
+        url('./DrukWide-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('DrukWide-HeavyItalic.eot');
+    src: url('DrukWide-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('DrukWide-HeavyItalic.woff2') format('woff2'),
+        url('DrukWide-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Black.eot');
+    src: url('Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Black.woff2') format('woff2'),
+        url('Gotham-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.eot');
+    src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.eot');
+    src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Book.eot');
+    src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.eot');
+    src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.eot');
+    src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Thin.eot');
+    src: url('Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Thin.woff2') format('woff2'),
+        url('Gotham-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-XLight.eot');
+    src: url('Gotham-XLight.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-XLight.woff2') format('woff2'),
+        url('Gotham-XLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('DelaGothicOne-Regular.eot');
+    src: url('DelaGothicOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DelaGothicOne-Regular.woff2') format('woff2'),
+        url('DelaGothicOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

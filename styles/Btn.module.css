@@ -1,0 +1,31 @@
+.button {
+    background: none;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+.btntext {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.btnbg {
+    cursor: pointer;
+
+}
+.btnbg:hover {
+    background: red;
+
+}
+.btnbg:focus {
+    background: white;
+}
+.btnbg:active {
+    background: white;
+}
+/* .button:hover {
+
+} */

@@ -1,0 +1,145 @@
+.header {
+    width: 100%;
+    height: 6rem;
+    /* background: rgba(255, 255, 255, 0.086); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuicon {
+    margin: 0 20px;
+    cursor: pointer;
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+    
+
+}
+.menuicon2 {
+    margin: 0 20px;
+    cursor: pointer;
+    width: 30px; 
+    height: 30px;
+} 
+.iconlight {
+    margin: 0 8px;
+    width: 25px; 
+    height: 25px;
+    position: relative;
+}
+.iconhome {
+    margin: 0 5px;
+    width: 25px; 
+    height: 25px;
+    position: relative;
+}
+.a {
+    transition: all 0.4s ease-out;
+}
+.a:hover {
+    background: #111111;
+    padding: 1.2rem 0.1px;
+    border-radius: 12px;
+}
+
+.spin {
+    width: 2px;
+    height: 20px;
+    background: #D9D9D9;
+    animation: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    transition: all 1s ease-in-out;
+
+}
+.headerspin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+
+}
+.headerspin:hover {
+    animation: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.headerspin {
+    margin-left: 2rem;
+}
+.headermenu {
+    margin-right: 1rem;
+    display: flex;
+}
+
+
+@keyframes spin {
+from {
+    transform:rotate(0deg);
+}
+to {
+    transform:rotate(360deg);
+}
+}
+.kanalogo {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+  .kanalogocon {
+    width: 100px;
+    height: 100px;
+    margin-left: 3rem;
+    
+  
+  }
+  
+@media (min-width: 768px) {
+    .spin {
+        width: 4px;
+        height: 28px;
+        background: #D9D9D9;
+        animation: spin;
+        animation-duration: 3000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        position: absolute;
+        transition: all 1s ease-in-out;
+    
+    }
+    .menuicon {
+        margin-left: 0px;
+        cursor: pointer;
+
+    }  
+    .menuicon2 {
+        margin-right: 0px;
+        cursor: pointer;
+
+    } 
+    .iconlight {
+        width: 32px; 
+        height: 32px;
+        position: relative;
+    }
+    .iconhome {
+        margin: 0 20px;
+        width: 32px; 
+        height: 32px;
+        position: relative;
+    }
+    .kanalogocon {
+        width: 130px;
+        height: 130px;
+      
+    }
+        
+}
